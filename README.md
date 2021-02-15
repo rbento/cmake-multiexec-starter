@@ -2,7 +2,7 @@
 
 #### About 
 
-Template for CMake projects containing dependencies and expected to generate one separate executable per C source file
+Template for CMake projects with dependencies and which are expected to generate one separate executable per C source file
 
 - Useful for projects containing multiple distinct code examples
 
