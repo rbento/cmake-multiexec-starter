@@ -2,9 +2,11 @@
 
 project ("project-name")
 
-add_definitions(-D_CRT_SECURE_NO_WARNINGS)
+set(CXX_STANDARD 17) # Supported values are 98, 11, 14, 17, 20, 23
 
 set(CMAKE_EXE_LINKER_FLAGS "/NODEFAULTLIB:MSVCRT")
+
+add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 
 include_directories(Resources/Libraries/<a-lib-name>/include
                     Resources/Libraries/<b-lib-name>/include)
