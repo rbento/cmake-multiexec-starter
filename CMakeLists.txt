@@ -1,9 +1,12 @@
-﻿cmake_minimum_required (VERSION 3.18)
+﻿cmake_minimum_required (VERSION 3.20)
 
 project ("project-name")
 
-# set(C_STANDARD 11) # Supported values are 90, 99 and 11.
+# set(C_STANDARD 99) # Supported values are 90, 99 and 11.
+# set(C_STANDARD_REQUIRED ON)
+
 set(CXX_STANDARD 17) # Supported values are 98, 11, 14, 17, 20, 23.
+set(CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_EXE_LINKER_FLAGS "/NODEFAULTLIB:MSVCRT")
 
