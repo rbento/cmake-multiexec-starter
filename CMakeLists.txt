@@ -2,7 +2,8 @@
 
 project ("project-name")
 
-set(CXX_STANDARD 17) # Supported values are 98, 11, 14, 17, 20, 23
+# set(C_STANDARD 11) # Supported values are 90, 99 and 11.
+set(CXX_STANDARD 17) # Supported values are 98, 11, 14, 17, 20, 23.
 
 set(CMAKE_EXE_LINKER_FLAGS "/NODEFAULTLIB:MSVCRT")
 
