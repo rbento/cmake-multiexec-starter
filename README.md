@@ -1,6 +1,7 @@
-# cmake-multiexec
+# cmake-multiexec-starter
 
-#### About 
+### About 
+---
 
 Template for CMake projects with dependencies and which are expected to generate one separate executable per C source file
 
@@ -8,7 +9,8 @@ Template for CMake projects with dependencies and which are expected to generate
 
 - Each C source file is expected to have an entry point
 
-#### Usage
+### Usage
+---
 
 ###### General
 
